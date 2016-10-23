@@ -9,5 +9,11 @@
         http://www.springframework.org/schema/mvc/spring-mvc.xsd
         http://www.springframework.org/schema/context
         http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean id="triangle" class="com.demoapp.springstuff.domain.Triangle">
+        <property name="type" value="equilateral" />
+        <property name="drawnBy" value="application" />
+        <property name="longest" value="5" />
+    </bean>
 
 </beans>
